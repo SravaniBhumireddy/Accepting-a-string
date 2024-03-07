@@ -1,0 +1,10 @@
+s=input()
+s=s.lower()
+if "m" in s and "e" in s and "o" in s and "w" in s:
+  s1="m"*(s.count("m")+s.count("e")+s.count("o")+s.count("w"))
+  if s==s1:
+    print("Yes")
+  else:
+    print("No")
+else:
+  print("No")
